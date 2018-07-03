@@ -20,8 +20,7 @@ class ExportController extends Controller
         $query = "SELECT category_name FROM product_category";
         $result = Yii::$app->getDb()->createCommand($query)->queryAll();
         var_dump($result);exit();
-
-
+        
         var_dump(11);
         var_dump(time());
         echo '<br/>';
